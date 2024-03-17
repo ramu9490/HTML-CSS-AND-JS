@@ -7,11 +7,9 @@ th{
 body{
     background-color: grey;
 }
-.header-with-image {
-    margin-right: 200px;
-    background-image: url('/images/result.png');
-    background-size: cover; /* or 'contain' depending on how you want the image to fit */
-    background-repeat: no-repeat;
-    height: 200px; /* Adjust height as needed */
+th.header-with-image img {
+    max-width: 10%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
   }
   
+ 
