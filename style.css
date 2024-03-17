@@ -2,8 +2,16 @@ h2{
     color: #7a1324;
 }
 th{
-    color: brown;
+    color: rgb(67, 42, 165);
 }
 body{
-    background-color: whitesmoke;
+    background-color: grey;
 }
+.header-with-image {
+    margin-right: 200px;
+    background-image: url('/images/result.png');
+    background-size: cover; /* or 'contain' depending on how you want the image to fit */
+    background-repeat: no-repeat;
+    height: 200px; /* Adjust height as needed */
+  }
+  
